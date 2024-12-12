@@ -26,7 +26,7 @@ export default function ContactForm() {
       
       setStatus('success');
       setFormData({ name: '', email: '', message: '' });
-    } catch (error) {
+    } catch (_error) {
       setStatus('error');
     }
   };
