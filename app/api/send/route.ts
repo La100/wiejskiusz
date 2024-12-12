@@ -12,7 +12,7 @@ export async function POST(request: Request) {
       to: ['stolamarcin@gmail.com'],
       subject: `Nowa wiadomość od ${name}`,
       react: EmailTemplate({ name, email, message }),
-      reply_to: email,
+   
     });
 
     if (error) {
