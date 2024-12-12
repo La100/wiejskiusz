@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export default function Services() {
   return (
     <main className="min-h-screen px-6 pt-20 md:px-8 max-w-7xl mx-auto">
@@ -14,7 +16,7 @@ export default function Services() {
       
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
         <div className="bg-white rounded-3xl overflow-hidden shadow-xl hover:shadow-2xl transition-shadow duration-300">
-          <img 
+          <Image 
             src="https://utfs.io/f/wooH0SnRkga3WALGGNQo1nONrkxFKAstWJDBwmVhLiYqe0zl"
             alt="Projektowanie wnętrz"
             className="w-full h-[600px] object-cover"
@@ -34,7 +36,7 @@ export default function Services() {
         </div>
 
         <div className="bg-white rounded-3xl overflow-hidden shadow-xl hover:shadow-2xl transition-shadow duration-300">
-          <img 
+          <Image 
             src="https://utfs.io/f/wooH0SnRkga30uwRNIOWDVvJRrE9Iwm5u28joLZAnHCcPzOF"
             alt="Przestrzenie komercyjne"
             className="w-full h-[600px] object-cover"
@@ -54,7 +56,7 @@ export default function Services() {
         </div>
 
         <div className="bg-white rounded-3xl overflow-hidden shadow-xl hover:shadow-2xl transition-shadow duration-300">
-          <img 
+          <Image 
             src="https://utfs.io/f/wooH0SnRkga3UxiKppsCQ5qc1kiotnjEv0ZNsgSxBarmTFyu"
             alt="Wizualizacje 3D"
             className="w-full h-[600px] object-cover"
@@ -74,7 +76,7 @@ export default function Services() {
         </div>
 
         <div className="bg-white rounded-3xl overflow-hidden shadow-xl hover:shadow-2xl transition-shadow duration-300">
-          <img 
+          <Image 
             src="https://utfs.io/f/wooH0SnRkga34nataOVdcntR5IYSlU98iaGPCVHQAmrjvOZE"
             alt="Konsultacje i doradztwo"
             className="w-full h-[600px] object-cover"
