@@ -10,9 +10,16 @@ export default function Hero() {
             <span className="font-serif italic"> pokochasz</span> 
             <br />
             <span className="block text-4xl mt-3 md:mt-4">
-              Projekty i wizualizacje wnętrz
+              Projekty i wizualizacje wnętrz z dbałością o każdy detal
             </span>
-          </h1>
+          </h1><div className="mt-8 ">
+            <a
+              href="/gallery"
+              className="inline-block px-6 py-3 text-lg font-medium text-white bg-black rounded-full hover:bg-gray-600"
+            >
+              Zobacz moje realizacje
+            </a>
+          </div>
         </div>
         <div className="order-2 md:order-2">
           <div className="w-full max-w-2xl mx-auto overflow-hidden rounded-xl">
@@ -25,6 +32,7 @@ export default function Hero() {
               priority
             />
           </div>
+        
         </div>
       </div>
     </div>
