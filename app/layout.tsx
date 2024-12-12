@@ -15,8 +15,8 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Fioro - Creative Studio",
-  description: "Interior design solutions",
+  title: "Sonia Projects",
+  description: "Projektowanie wnętrz",
 };
 
 export default function RootLayout({

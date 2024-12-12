@@ -6,10 +6,10 @@ export default function Hero() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
         <div className="order-1 md:order-1">
           <h1 className="max-w-4xl text-6xl md:text-6xl lg:text-7xl tracking-tight md:pr-12 lg:pr-20">
-            Zaprojektuje miejsce, które
+            Zaprojektuje przestrzeń, którą
             <span className="font-serif italic"> pokochasz</span> 
             <br />
-            <span className="block mt-3 md:mt-4">
+            <span className="block text-4xl mt-3 md:mt-4">
               Projekty i wizualizacje wnętrz
             </span>
           </h1>

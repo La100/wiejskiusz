@@ -4,7 +4,7 @@ export default function Services() {
       <h1 className="text-4xl md:text-5xl font-serif italic mb-12 text-center">Moje Usługi</h1>
       
       <div className="max-w-3xl mx-auto bg-white rounded-3xl p-10 shadow-xl mb-16">
-        <h3 className="text-2xl font-medium mb-6 text-center">Jak Pracuję</h3>
+        <h3 className="text-2xl font-medium mb-6 text-center">Jak Pracuję?</h3>
         <p className="text-neutral-600 leading-relaxed text-center">
           Każdy projekt rozpoczynam od dokładnego poznania Twoich potrzeb i oczekiwań. 
           Następnie przechodzę przez etapy koncepcji, projektowania, wizualizacji i dokumentacji wykonawczej. 
