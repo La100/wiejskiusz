@@ -1,21 +1,116 @@
 'use client';
 
-import Image from "next/image";
 import { useState } from "react";
 import ImageModal from "../components/ImageModal";
+import GallerySection from "../components/GallerySection";
 
-const images = [
+const galleryData = [
   {
-    url: "https://utfs.io/f/wooH0SnRkga3vKQbbPll7ItFN3RhM8KXWZYbBCxajPnw4mqT",
-    alt: "Zdjęcie 1",
+    title: "ŁAZIENKA W DOMU JEDNORODZINNYM",
+    images: [
+      {
+        url: "/gallery/image00034.jpeg",
+        alt: "Zdjęcie 1",
+      },
+      {
+        url: "/gallery/image00035.jpeg",
+        alt: "Zdjęcie 2",
+      },
+      {
+        url: "/gallery/image00036.jpeg",
+        alt: "Zdjęcie 3",
+      },
+      {
+        url: "/gallery/image00037.jpeg",
+        alt: "Zdjęcie 4",
+      }
+    ]
   },
   {
-    url: "https://utfs.io/f/wooH0SnRkga3OOPtpr7WZ7ASPw5Hokg0TvVYbED2BeKxiLuQ", 
-    alt: "Zdjęcie 2",
+    title: "APARTAMENT W CENTRUM MIASTA",
+    images: [
+      {
+        url: "/gallery/image00010.jpeg",
+        alt: "Zdjęcie 1",
+      },
+      {
+        url: "/gallery/image00001.jpeg",
+        alt: "Zdjęcie 2",
+      },
+      {
+        url: "/gallery/image00009.jpeg",
+        alt: "Zdjęcie 3",
+      }
+    ]
   },
   {
-    url: "https://utfs.io/f/wooH0SnRkga3ZTU74FpfEOXksDWaBL0coh6vd59URiT1glyJ",
-    alt: "Zdjęcie 3", 
+    title: "MIESZKANIE W MODERNISTYCZNEJ KAMIENICY",
+    images: [
+      {
+        url: "/gallery/image00057.jpeg",
+        alt: "Zdjęcie 1",
+      },
+      {
+        url: "/gallery/image00058.jpeg",
+        alt: "Zdjęcie 2",
+      },
+      {
+        url: "/gallery/image00059.jpeg",
+        alt: "Zdjęcie 3",
+      },
+      {
+        url: "/gallery/image00060.jpeg",
+        alt: "Zdjęcie 4",
+      }
+    ]
+  },
+  {
+    title: "ŁAZIENKA W STYLU FARMHOUSE",
+    subtitle: "Projekt stworzony dla KRESarchitekci",
+    images: [
+      {
+        url: "/gallery/image00038.jpeg",
+        alt: "Zdjęcie 1",
+      },
+      {
+        url: "/gallery/image00039.jpeg",
+        alt: "Zdjęcie 2",
+      },
+      {
+        url: "/gallery/image00040.jpeg",
+        alt: "Zdjęcie 3",
+      },
+      {
+        url: "/gallery/image00041.jpeg",
+        alt: "Zdjęcie 4",
+      }
+    ]
+  },
+  {
+    title: "NOWOCZESNY DOM POD WARSZAWĄ",
+    subtitle: "Projekt stworzony dla KRESarchitekci",
+    images: [
+      {
+        url: "/gallery/image00025.jpeg",
+        alt: "Zdjęcie 1",
+      },
+      {
+        url: "/gallery/image00026.jpeg",
+        alt: "Zdjęcie 2",
+      },
+      {
+        url: "/gallery/image00027.jpeg",
+        alt: "Zdjęcie 3",
+      },
+      {
+        url: "/gallery/image00028.jpeg",
+        alt: "Zdjęcie 4",
+      },
+      {
+        url: "/gallery/image00029.jpeg",
+        alt: "Zdjęcie 5",
+      }
+    ]
   }
 ];
 
@@ -23,24 +118,22 @@ export default function Gallery() {
   const [selectedImage, setSelectedImage] = useState<{url: string; alt: string} | null>(null);
 
   return (
-    <main className="min-h-screen px-6 pt-20 md:px-8">
-      <h1 className="text-4xl md:text-5xl font-serif italic mb-8">Galeria</h1>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {images.map((image, index) => (
-          <div 
-            key={index} 
-            className="relative aspect-square overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 cursor-pointer"
-            onClick={() => setSelectedImage(image)}
-          >
-            <Image
-              src={image.url}
-              alt={image.alt}
-              fill
-              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-              className="object-cover hover:scale-105 transition-transform duration-300"
-              priority={index < 2}
-            />
-          </div>
+    <main className="min-h-screen px-6 md:px-8">
+      <div className="max-w-[1400px] mx-auto px-6 md:px-8 pt-32 pb-16">
+        <h1 className="font-futura text-center text-4xl md:text-5xl lg:text-6xl tracking-tight mb-3">PROJEKTY</h1>
+        <div className="h-px w-16 bg-neutral-200 mb-8 mx-auto"></div>
+        <p className="text-center text-neutral-600 text-lg md:text-xl mb-12">
+          Odkryj moje wizualizacje, które oddają unikalny charakter każdej przestrzeni.
+        </p>
+
+        {galleryData.map((section, index) => (
+          <GallerySection
+            key={index}
+            title={section.title}
+            subtitle={section.subtitle}
+            images={section.images}
+            onImageClick={setSelectedImage}
+          />
         ))}
       </div>
 

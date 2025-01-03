@@ -2,7 +2,7 @@ import ProjectCarousel from '../components/ProjectCarousel';
 
 const projects = [
   {
-    title: "BLUE MOON",
+    title: "BLUE MOOD",
     subtitle: "dom jednorodzinny w lesie",
     description: `Projekt domu jednorodzinnego dla sześciosobowej rodziny obejmował kompleksową przebudowę kilku kluczowych pomieszczeń, mając na celu stworzenie nowoczesnej, funkcjonalnej przestrzeni sprzyjającej wspólnemu spędzaniu czasu. Głównym celem remontu było poprawienie komfortu i efektywności użytkowania przestrzeni, a także dostosowanie jej do potrzeb rosnącej rodziny.
 
@@ -56,8 +56,9 @@ const projects = [
     description: `Kompleksowe przekształcenie mieszkania w kamienicy na gabinet psychologiczny na Placu Wilsona. Powstało miejsce, które łączy profesjonalizm z indywidualnym podejściem do pacjenta. Każdy z gabinetów został zaprojektowany w odmiennym stylu, nawiązując do różnych metod pracy psychologów. Przestrzeń została zaprojektowana tak, aby sprzyjała zarówno terapii indywidualnej oraz grupowej, jak i budowaniu zaufania między pacjentem a specjalistą.  `,
     images: [
       'https://utfs.io/f/wooH0SnRkga3rWwuqBoQkPqdvJwiUuDaF2jxQzmtZ60AGlsb',
-      'https://utfs.io/f/wooH0SnRkga3X4GKHJUuGVHaPz3KxirQTNmOLqBtsyCjd1Mn',
       'https://utfs.io/f/wooH0SnRkga3rWdD7q9QkPqdvJwiUuDaF2jxQzmtZ60AGlsb',
+      'https://utfs.io/f/wooH0SnRkga3X4GKHJUuGVHaPz3KxirQTNmOLqBtsyCjd1Mn',
+    
       'https://utfs.io/f/wooH0SnRkga3res6rmQkPqdvJwiUuDaF2jxQzmtZ60AGlsb9',
      'https://utfs.io/f/wooH0SnRkga3EEsIrSPsKO6LQZ9TFEjntUcm4WBbzpA3yHNl',
 
