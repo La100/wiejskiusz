@@ -49,13 +49,13 @@ export default function Header() {
           {/* Menu desktopowe */}
           <nav className="hidden md:flex items-center gap-8">
             <Link href="/projects" className="text-sm hover:text-neutral-600">
-              Projekty
+              Realizacje
             </Link>
             <Link href="/services" className="text-sm hover:text-neutral-600">
               Usługi
             </Link>
             <Link href="/gallery" className="text-sm hover:text-neutral-600">
-              Galeria
+              Projekty
             </Link>
             <Link
               href="/contact"
@@ -83,7 +83,7 @@ export default function Header() {
                 className="text-lg font-medium hover:text-neutral-600 transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
-                Projekty
+                Realizacje
               </Link>
               <Link 
                 href="/services" 
@@ -97,7 +97,7 @@ export default function Header() {
                 className="text-lg font-medium hover:text-neutral-600 transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
-                 Galeria
+                 Projekty
               </Link>
               <Link
                 href="/contact"
@@ -113,7 +113,7 @@ export default function Header() {
               <div>
                 <h3 className="text-sm font-medium text-black mb-2">Kontact</h3>
                 <p className="text-sm">soniaarchitektura@gmail.com</p>
-                <p className="text-sm">+48 797 695 156</p>
+                <p className="text-sm">+48 696 600 364</p>
               </div>
               <div>
                 <h3 className="text-sm font-medium text-black mb-2">Social Media</h3>
