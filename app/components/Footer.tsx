@@ -24,7 +24,7 @@ export default function Footer() {
             <h3 className="font-medium mb-4">Kontakt</h3>
             <ul className="space-y-2">
               <li className="text-sm text-neutral-600">soniaarchitektura@gmail.com</li>
-              <li className="text-sm text-neutral-600">+48 797 695 156</li>
+              <li className="text-sm text-neutral-600">+48 696 600 364</li>
             </ul>
           </div>
           <div>

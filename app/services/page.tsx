@@ -14,14 +14,14 @@ export default function Services() {
         </p>
       </div>
       
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         <div className="bg-white rounded-3xl overflow-hidden shadow-xl hover:shadow-2xl transition-shadow duration-300">
           <Image 
             src="https://utfs.io/f/wooH0SnRkga3WALGGNQo1nONrkxFKAstWJDBwmVhLiYqe0zl"
             alt="Projektowanie wnętrz"
             width={800}
             height={600}
-            className="w-full h-[600px] object-cover"
+            className="w-full h-[400px] object-cover"
           />
           <div className="p-8 space-y-4">
             <h2 className="text-2xl font-medium">Projektowanie Wnętrz</h2>
@@ -43,7 +43,7 @@ export default function Services() {
             alt="Przestrzenie komercyjne"
             width={800}
             height={600}
-            className="w-full h-[600px] object-cover"
+            className="w-full h-[400px] object-cover"
           />
           <div className="p-8 space-y-4">
             <h2 className="text-2xl font-medium">Przestrzenie Komercyjne</h2>
@@ -65,7 +65,7 @@ export default function Services() {
             alt="Wizualizacje 3D"
             width={800}
             height={600}
-            className="w-full h-[600px] object-cover"
+            className="w-full h-[400px] object-cover"
           />
           <div className="p-8 space-y-4">
             <h2 className="text-2xl font-medium">Wizualizacje 3D</h2>
@@ -87,7 +87,7 @@ export default function Services() {
             alt="Konsultacje i doradztwo"
             width={800}
             height={600}
-            className="w-full h-[600px] object-cover"
+            className="w-full h-[400px] object-cover"
           />
           <div className="p-8 space-y-4">
             <h2 className="text-2xl font-medium">Konsultacje i Doradztwo</h2>
