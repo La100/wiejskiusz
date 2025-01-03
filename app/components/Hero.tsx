@@ -14,7 +14,7 @@ export default function Hero() {
             </span>
           </h1><div className="mt-8 ">
             <a
-              href="/gallery"
+              href="/projects"
               className="inline-block px-6 py-3 text-lg font-medium text-white bg-black rounded-full hover:bg-gray-600"
             >
               Zobacz moje realizacje
