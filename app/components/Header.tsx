@@ -8,9 +8,10 @@ export default function Header() {
   return (
     <header className="border-b border-neutral-200">
       <div className="max-w-7xl mx-auto px-6 py-4 md:px-8">
-        <div className="flex items-center justify-between">
-          <Link href="/" className="text-xl font-medium">
-            Sonia Projects
+        <div className="flex justify-between">
+          <Link href="/" className="text-xl font-medium flex items-end gap-2">
+           <img src="/logosonia.png" alt="Sonia Projects" width={50} height={50} />
+           <span className="mb-0">Sonia Projects</span>
           </Link>
           
           {/* Przycisk menu mobilnego */}

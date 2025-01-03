@@ -7,7 +7,7 @@ export default function Hero() {
         <div className="order-1 md:order-1">
           <h1 className="max-w-4xl text-6xl md:text-6xl lg:text-7xl tracking-tight md:pr-12 lg:pr-20">
             Zaprojektuje przestrzeń, którą
-            <span className="font-serif italic"> pokochasz</span> 
+            <span className=" italic"> pokochasz</span> 
             <br />
             <span className="block text-4xl mt-3 md:mt-4">
               Projekty  wnętrz z dbałością o każdy detal

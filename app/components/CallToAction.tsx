@@ -6,7 +6,7 @@ export default function CallToAction() {
     <section className="py-20">
       <div className="container mx-auto px-6 md:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-serif italic mb-6">
+          <h2 className="text-4xl md:text-5xl  mb-6">
             Zrealizujmy razem Twoje marzenia
           </h2>
           <p className="text-neutral-600 mb-8 max-w-2xl mx-auto">

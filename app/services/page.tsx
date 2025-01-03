@@ -24,37 +24,16 @@ export default function Services() {
             className="w-full h-[400px] object-cover"
           />
           <div className="p-8 space-y-4">
-            <h2 className="text-2xl font-medium">Projektowanie Wnętrz</h2>
+            <h2 className="text-2xl font-medium">Kompleksowy projekt wnętrz</h2>
             <p className="text-neutral-600 leading-relaxed">
-              Tworzę funkcjonalne i estetyczne przestrzenie mieszkalne, które odzwierciedlają Twój styl życia i potrzeby. Moje projekty obejmują:
+              Tworzę funkcjonalne i estetyczne przestrzenie mieszkalne, które odzwierciedlają Twój styl życia i potrzeby.
             </p>
             <ul className="list-disc list-inside text-neutral-600 space-y-2 ml-4">
-              <li>Kompleksowe projekty mieszkań i domów</li>
-              <li>Optymalizację układu pomieszczeń</li>
-              <li>Dobór materiałów wykończeniowych</li>
-              <li>Projekty mebli na wymiar</li>
-            </ul>
-          </div>
-        </div>
-
-        <div className="bg-white rounded-3xl overflow-hidden shadow-xl hover:shadow-2xl transition-shadow duration-300">
-          <Image 
-            src="https://utfs.io/f/wooH0SnRkga30uwRNIOWDVvJRrE9Iwm5u28joLZAnHCcPzOF"
-            alt="Przestrzenie komercyjne"
-            width={800}
-            height={600}
-            className="w-full h-[400px] object-cover"
-          />
-          <div className="p-8 space-y-4">
-            <h2 className="text-2xl font-medium">Przestrzenie Komercyjne</h2>
-            <p className="text-neutral-600 leading-relaxed">
-              Projektuję ergonomiczne i reprezentacyjne przestrzenie biurowe oraz lokale usługowe, które wspierają produktywność i budują profesjonalny wizerunek firmy.
-            </p>
-            <ul className="list-disc list-inside text-neutral-600 space-y-2 ml-4">
-              <li>Aranżacja biur i przestrzeni coworkingowych</li>
-              <li>Projekty lokali usługowych i sklepów</li>
-              <li>Optymalizacja przestrzeni pod względem funkcjonalnym</li>
-              <li>Dostosowanie do wymogów brandingu</li>
+              <li>Analiza potrzeb i oczekiwań klienta</li>
+              <li>Opracowanie układu funkcjonalnego</li>
+              <li>Fotorealistyczne wizualizacje 3D</li>
+              <li>Szczegółowy projekt techniczny</li>
+              <li>Kompleksowe zestawienie materiałów</li>
             </ul>
           </div>
         </div>
@@ -70,7 +49,7 @@ export default function Services() {
           <div className="p-8 space-y-4">
             <h2 className="text-2xl font-medium">Wizualizacje 3D</h2>
             <p className="text-neutral-600 leading-relaxed">
-              Tworzę fotorealistyczne wizualizacje, które pozwalają zobaczyć efekt końcowy przed rozpoczęciem prac:
+              Tworzę fotorealistyczne wizualizacje, które pozwalają zobaczyć efekt końcowy przed rozpoczęciem prac.
             </p>
             <ul className="list-disc list-inside text-neutral-600 space-y-2 ml-4">
               <li>Renderingi wnętrz w wysokiej rozdzielczości</li>
@@ -90,15 +69,14 @@ export default function Services() {
             className="w-full h-[400px] object-cover"
           />
           <div className="p-8 space-y-4">
-            <h2 className="text-2xl font-medium">Konsultacje i Doradztwo</h2>
+            <h2 className="text-2xl font-medium">Konsultacje</h2>
             <p className="text-neutral-600 leading-relaxed">
-              Oferuję profesjonalne wsparcie na każdym etapie projektu:
+              Oferuję profesjonalne wsparcie na każdym etapie projektu.
             </p>
             <ul className="list-disc list-inside text-neutral-600 space-y-2 ml-4">
-              <li>Doradztwo w zakresie stylizacji wnętrz</li>
+              <li>Analiza potrzeb</li>
               <li>Dobór kolorystyki i materiałów</li>
               <li>Konsultacje z wykonawcami</li>
-              <li>Nadzór nad realizacją projektu</li>
             </ul>
           </div>
         </div>
