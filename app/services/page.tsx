@@ -19,6 +19,8 @@ export default function Services() {
           <Image 
             src="https://utfs.io/f/wooH0SnRkga3WALGGNQo1nONrkxFKAstWJDBwmVhLiYqe0zl"
             alt="Projektowanie wnętrz"
+            width={800}
+            height={600}
             className="w-full h-[600px] object-cover"
           />
           <div className="p-8 space-y-4">
@@ -39,6 +41,8 @@ export default function Services() {
           <Image 
             src="https://utfs.io/f/wooH0SnRkga30uwRNIOWDVvJRrE9Iwm5u28joLZAnHCcPzOF"
             alt="Przestrzenie komercyjne"
+            width={800}
+            height={600}
             className="w-full h-[600px] object-cover"
           />
           <div className="p-8 space-y-4">
@@ -59,6 +63,8 @@ export default function Services() {
           <Image 
             src="https://utfs.io/f/wooH0SnRkga3UxiKppsCQ5qc1kiotnjEv0ZNsgSxBarmTFyu"
             alt="Wizualizacje 3D"
+            width={800}
+            height={600}
             className="w-full h-[600px] object-cover"
           />
           <div className="p-8 space-y-4">
@@ -79,6 +85,8 @@ export default function Services() {
           <Image 
             src="https://utfs.io/f/wooH0SnRkga34nataOVdcntR5IYSlU98iaGPCVHQAmrjvOZE"
             alt="Konsultacje i doradztwo"
+            width={800}
+            height={600}
             className="w-full h-[600px] object-cover"
           />
           <div className="p-8 space-y-4">

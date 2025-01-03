@@ -1,4 +1,3 @@
-
 import Image from 'next/image';
 
 const Services = () => {
@@ -9,35 +8,41 @@ const Services = () => {
 
       <div className="space-y-24">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
-          <div className="relative h-[600px]">
+          <div className="relative h-[700px] w-full">
             <Image
-              src="https://utfs.io/f/wooH0SnRkga30uwRNIOWDVvJRrE9Iwm5u28joLZAnHCcPzOF"
+              src="https://utfs.io/f/wooH0SnRkga3q12sunWSw6gV2El1YNMkfUbnax0dv9JPeTAX"
               alt="Projektowanie wnętrz"
               fill
+              sizes="(max-width: 768px) 100vw, 50vw"
               className="object-cover rounded-2xl"
+              priority
             />
           </div>
           <div className="space-y-6">
-            <h2 className="text-2xl font-medium">Projektowanie Wnętrz</h2>
+            <h2 className="text-2xl font-medium">Kompleksowy projekt wnętrz</h2>
             <p className="text-neutral-600 leading-relaxed">
               Tworzę funkcjonalne i estetyczne przestrzenie mieszkalne, które odzwierciedlają Twój styl życia i potrzeby.
             </p>
             <ul className="space-y-3 text-neutral-600">
               <li className="flex items-center gap-2">
                 <span className="w-1.5 h-1.5 bg-neutral-400 rounded-full"></span>
-                Kompleksowe projekty mieszkań i domów
+                Analiza potrzeb i oczekiwań klienta
               </li>
               <li className="flex items-center gap-2">
                 <span className="w-1.5 h-1.5 bg-neutral-400 rounded-full"></span>
-                Optymalizacja układu pomieszczeń
+                Opracowanie układu funkcjonalnego
               </li>
               <li className="flex items-center gap-2">
                 <span className="w-1.5 h-1.5 bg-neutral-400 rounded-full"></span>
-                Dobór materiałów wykończeniowych
+                Fotorealistyczne wizualizacje 3D
               </li>
               <li className="flex items-center gap-2">
                 <span className="w-1.5 h-1.5 bg-neutral-400 rounded-full"></span>
-                Projekty mebli na wymiar
+                Szczegółowy projekt techniczny
+              </li>
+              <li className="flex items-center gap-2">
+                <span className="w-1.5 h-1.5 bg-neutral-400 rounded-full"></span>
+                Kompleksowe zestawienie materiałów
               </li>
             </ul>
           </div>
@@ -68,23 +73,27 @@ const Services = () => {
               </li>
             </ul>
           </div>
-          <div className="relative h-[600px] order-1 md:order-2">
+          <div className="relative h-[700px] order-1 md:order-2">
             <Image
               src="https://utfs.io/f/wooH0SnRkga3UxiKppsCQ5qc1kiotnjEv0ZNsgSxBarmTFyu"
               alt="Wizualizacje 3D"
               fill
+              sizes="(max-width: 768px) 100vw, 50vw"
               className="object-cover rounded-2xl"
+              priority
             />
           </div>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
-          <div className="relative h-[600px]">
+          <div className="relative h-[700px] w-full">
             <Image
               src="https://utfs.io/f/wooH0SnRkga34nataOVdcntR5IYSlU98iaGPCVHQAmrjvOZE"
               alt="Konsultacje i doradztwo"
               fill
+              sizes="(max-width: 768px) 100vw, 50vw"
               className="object-cover rounded-2xl"
+              priority
             />
           </div>
           <div className="space-y-6">
@@ -95,7 +104,7 @@ const Services = () => {
             <ul className="space-y-3 text-neutral-600">
               <li className="flex items-center gap-2">
                 <span className="w-1.5 h-1.5 bg-neutral-400 rounded-full"></span>
-                Doradztwo w zakresie stylizacji wnętrz
+                Analiza potrzeb
               </li>
               <li className="flex items-center gap-2">
                 <span className="w-1.5 h-1.5 bg-neutral-400 rounded-full"></span>
@@ -104,10 +113,6 @@ const Services = () => {
               <li className="flex items-center gap-2">
                 <span className="w-1.5 h-1.5 bg-neutral-400 rounded-full"></span>
                 Konsultacje z wykonawcami
-              </li>
-              <li className="flex items-center gap-2">
-                <span className="w-1.5 h-1.5 bg-neutral-400 rounded-full"></span>
-                Nadzór nad realizacją projektu
               </li>
             </ul>
           </div>

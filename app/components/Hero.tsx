@@ -10,7 +10,7 @@ export default function Hero() {
             <span className="font-serif italic"> pokochasz</span> 
             <br />
             <span className="block text-4xl mt-3 md:mt-4">
-              Projekty i wizualizacje wnętrz z dbałością o każdy detal
+              Projekty  wnętrz z dbałością o każdy detal
             </span>
           </h1><div className="mt-8 ">
             <a
