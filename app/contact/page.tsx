@@ -8,7 +8,7 @@ export default function Contact() {
       <div className="px-6 pt-20 md:px-8 max-w-7xl mx-auto mb-20">
         <div className="grid md:grid-cols-2 gap-12 items-start">
           <div className="space-y-6">
-            <h1 className="text-4xl md:text-6xl font-serif italic mb-4">
+            <h1 className="text-4xl md:text-6xl  mb-4">
               Nawiążmy współpracę
             </h1>
             <p className="text-lg text-neutral-600 max-w-md">
