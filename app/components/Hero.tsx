@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <div className="pt-20 md:pt-32">
+    <div className="pt-12 md:pt-12">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
         <div className="order-1 md:order-1">
           <h1 className="max-w-4xl text-6xl md:text-6xl lg:text-7xl tracking-tight md:pr-12 lg:pr-20">

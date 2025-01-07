@@ -2,14 +2,14 @@ import Image from 'next/image';
 
 export default function About() {
   return (
-    <section className="py-24 px-4 md:px-8">
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
-        <h2 className="text-3xl font-semibold mb-8">O mnie</h2>
-        <p className=" ">
+    <section className="py-8 px-4 md:px-8">
+      <div className="max-w-2xl mb-12 mx-auto text-center">
+        <h2 className="text-3xl font-semibold mb-8">Kim jestem</h2>
+        <p className="mb-6">
           Projektuję wnętrza z charakterem. Każda przestrzeń to nowa historia - czy to przytulny dom, nowoczesne biuro czy elegancki lokal usługowy. Dbam o każdy detal.
         </p>
         
-        <p className="">
+        <p>
           Łączę najnowsze trendy ze sprawdzonymi rozwiązaniami. Twoje marzenia i potrzeby są dla mnie priorytetem. Wspólnie stworzymy wnętrze, które będzie Cię inspirować.
         </p>
       </div>

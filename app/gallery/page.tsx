@@ -119,7 +119,7 @@ export default function Gallery() {
 
   return (
     <main className="min-h-screen px-6 md:px-8">
-      <div className="max-w-[1400px] mx-auto px-6 md:px-8 pt-32 pb-16">
+      <div className="max-w-[1400px] mx-auto px-6 md:px-8 pt-12 pb-16">
         <h1 className="font-futura text-center text-4xl md:text-5xl lg:text-6xl tracking-tight mb-3">PROJEKTY</h1>
         <div className="h-px w-16 bg-neutral-200 mb-8 mx-auto"></div>
         <p className="text-center text-neutral-600 text-lg md:text-xl mb-12">

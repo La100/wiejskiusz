@@ -2,8 +2,8 @@ import Image from 'next/image';
 
 export default function Services() {
   return (
-    <main className="min-h-screen px-6 pt-20 md:px-8 max-w-7xl mx-auto">
-      <h1 className="text-4xl md:text-5xl font-serif italic mb-12 text-center">Moje Usługi</h1>
+    <main className="min-h-screen px-6 pt-12 md:px-8 max-w-7xl mx-auto">
+      <h1 className="text-4xl md:text-5xl  mb-12 text-center">Moje usługi</h1>
       
       <div className="max-w-3xl mx-auto bg-white rounded-3xl p-10 shadow-xl mb-16">
         <h3 className="text-2xl font-medium mb-6 text-center">Jak Pracuję?</h3>

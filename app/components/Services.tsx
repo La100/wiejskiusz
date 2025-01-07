@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 const Services = () => {
   return (
-    <section className="py-16 px-6 md:px-8 max-w-7xl mx-auto">
+    <section className="py-8 px-6 md:px-8 max-w-7xl mx-auto">
       <h1 className="text-4xl md:text-5xl   mb-12 text-center">Moje Usługi</h1>
       
 
