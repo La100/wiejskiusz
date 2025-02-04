@@ -15,8 +15,8 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Sonia Projects",
-  description: "Projektowanie wnętrz",
+  title: "Wiejska 11",
+  description: "Unique Apartment",
 };
 
 export default function RootLayout({
