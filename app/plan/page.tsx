@@ -13,6 +13,16 @@ export default function PlanPage() {
           style={{ border: 'none' }}
         />
       </div>
+      <div className="md:hidden mt-4">
+        <a
+          href="/plan.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="block px-6 py-3 bg-black text-white text-center rounded-full hover:bg-neutral-800 transition-colors"
+        >
+         Open file in full screen
+        </a>
+      </div>
     </div>
   );
 } 

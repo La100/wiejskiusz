@@ -1,4 +1,3 @@
-
 import Image from 'next/image';
 import ContactForm from '../components/ContactForm';
 
@@ -30,8 +29,7 @@ export default function Contact() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" 
                     d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                 </svg>
-                <span>Wiejska 11 apt 8
-                00-480  Warsaw</span>
+                <span>Wiejska 11 apt 8, 00-480  Warsaw</span>
               </div>
               <div className="flex items-center space-x-3">
                 <a href="tel:+48661966066">
@@ -50,7 +48,7 @@ export default function Contact() {
       </div>
 
       <div className="px-6 md:px-8 max-w-7xl mx-auto">
-        <div className="w-full h-[600px] relative mt-20 rounded-[2.5rem] overflow-hidden">
+        <div className="w-full h-[400px] md:h-[600px] relative mt-20 rounded-[2.5rem] overflow-hidden">
           <div className="absolute inset-0 bg-black/10" />
           <Image
             src="/backg.jpg"

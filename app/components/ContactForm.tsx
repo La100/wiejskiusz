@@ -72,7 +72,7 @@ export default function ContactForm() {
           disabled={status === 'loading'}
           className="w-full px-6 py-3 bg-black text-white rounded-full hover:bg-neutral-800 disabled:bg-gray-400 transition-colors duration-200"
         >
-          {status === 'loading' ? 'Wysyłanie...' : 'Wyślij wiadomość'}
+          {status === 'loading' ? 'Sending...' : 'Send a message'}
         </button>
         {status === 'success' && (
           <p className="text-green-600 text-center">Message sent!</p>
