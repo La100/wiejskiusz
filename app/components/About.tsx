@@ -53,15 +53,14 @@ export default function About() {
         </div>
 
         {/* Image below */}
-        <div className="relative aspect-[3/4] w-1/2 mx-auto">
-          <Image
+    
+          <img
             src="/hero2.jpg"
             alt="Grand Salon"
-            fill
-            className="object-cover"
-            priority
+         className='mx-auto'
+          
           />
-        </div>
+        
       </div>
     </section>
   );

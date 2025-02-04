@@ -30,7 +30,7 @@ export default function RootLayout({
         <div className="max-w-screen-xl mx-auto px-6 md:px-8">
           <Header />
         </div>
-        <div className="max-w-screen-2xl mx-auto px-6 md:px-8">
+        <div>
           {children}
         </div>
         <div className="max-w-screen-xl mx-auto px-6 md:px-8">
