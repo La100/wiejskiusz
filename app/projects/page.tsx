@@ -71,7 +71,7 @@ export default function Projects() {
   return (
     <main className="min-h-screen">
       <div className="max-w-[1400px] mx-auto px-6 md:px-8 pt-12 pb-16">
-        <h1 className="font-futura text-center text-4xl md:text-5xl lg:text-6xl tracking-tight mb-3">REALIZACJE</h1>
+        <h1 className="text-center text-4xl md:text-5xl lg:text-6xl tracking-tight mb-3">REALIZACJE</h1>
         <div className="h-px w-16 bg-neutral-200 mb-8 mx-auto"></div>
         <p className="text-center text-neutral-600 text-lg md:text-xl mb-4">
           Poznaj moje portfolio, pełne wyjątkowych realizacji wnętrz, tworzonych z pasją i dbałością o każdy detal.

@@ -1,0 +1,19 @@
+[
+  {
+    "title": "Grand Salon",
+    "images": [
+      {
+        "url": "/gallery/grand-salon-1.jpg",
+        "alt": "grand-salon 1"
+      },
+      {
+        "url": "/gallery/grand-salon-2.jpg",
+        "alt": "grand-salon 2"
+      },
+      {
+        "url": "/gallery/grand-salon-3.jpg",
+        "alt": "grand-salon 3"
+      }
+    ]
+  }
+]

@@ -2,37 +2,35 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <div className="pt-12 md:pt-12">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-        <div className="order-1 md:order-1">
-          <h1 className="max-w-4xl text-6xl md:text-6xl lg:text-7xl tracking-tight md:pr-12 lg:pr-20">
-            Zaprojektuje przestrzeń, którą
-            <span className=" italic"> pokochasz</span> 
-            <br />
-            <span className="block text-4xl mt-3 md:mt-4">
-              Projekty  wnętrz z dbałością o każdy detal
-            </span>
-          </h1><div className="mt-8 ">
-            <a
-              href="/projects"
-              className="inline-block px-6 py-3 text-lg font-medium text-white bg-black rounded-full hover:bg-gray-600"
-            >
-              Zobacz moje realizacje
-            </a>
-          </div>
-        </div>
-        <div className="order-2 md:order-2">
-          <div className="w-full max-w-2xl mx-auto overflow-hidden rounded-xl">
-            <Image
-              src="https://utfs.io/f/wooH0SnRkga36nQbodxJsL1yfa0XgupBWGbeUVrknDiNISQm"
-              alt="Modern living room with sage green sofa, decorative elements, and plants"
-              width={1600}
-              height={900}
-              className="object-cover w-full h-full"
-              priority
-            />
-          </div>
-        
+    <div className="relative h-[60vh] w-full overflow-hidden">
+      {/* Full-width image container */}
+      <div className="absolute inset-0">
+        <Image
+          src="/hero.jpg"
+          alt="Elegant architectural detail"
+          fill
+          className="object-cover w-full"
+          sizes="100vw"
+          quality={100}
+          priority
+        />
+      </div>
+      
+      {/* Text overlay container */}
+      <div className="relative z-10 flex items-center justify-center h-full">
+        <div className="max-w-2xl w-full mx-4 bg-white/95 rounded-2xl px-8 py-10 text-center shadow-lg">
+          <h1 className="text-4xl tracking-wider mb-6 text-gray-800">
+            Wiejska 11
+          </h1>
+          <p className="text-xl leading-relaxed mb-8 text-gray-600">
+            A luxury 211 sq. m. apartment in a beautifully restored 1906 building
+          </p>
+          <a
+            href="/contact"
+            className="inline-block px-8 py-3 text-sm  tracking-wider bg-gray-900 text-white border border-gray-900 rounded-sm hover:bg-gray-800 transition-all duration-300 shadow-sm"
+          >
+            Book a Viewing
+          </a>
         </div>
       </div>
     </div>

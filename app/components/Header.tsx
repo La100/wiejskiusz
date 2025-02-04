@@ -10,8 +10,8 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-6 py-4 md:px-8">
         <div className="flex justify-between">
           <Link href="/" className="text-xl font-medium flex items-end gap-2">
-           <img src="/logosonia.png" alt="Sonia Projects" width={50} height={50} />
-           <span className="mb-0">Sonia Projects</span>
+           <img src="/logo.jpg" alt="Wiejska 11" width={50} height={50} />
+           <span className="mb-0">Wiejska 11</span>
           </Link>
           
           {/* Przycisk menu mobilnego */}
@@ -49,20 +49,26 @@ export default function Header() {
 
           {/* Menu desktopowe */}
           <nav className="hidden md:flex items-center gap-8">
-            <Link href="/projects" className="text-sm hover:text-neutral-600">
-              Realizacje
-            </Link>
-            <Link href="/services" className="text-sm hover:text-neutral-600">
-              Usługi
+            <Link href="/" className="text-sm hover:text-neutral-600">
+             Home
             </Link>
             <Link href="/gallery" className="text-sm hover:text-neutral-600">
-              Projekty
+              Gallery
+            </Link>
+            <Link href="/rooms" className="text-sm hover:text-neutral-600">
+              Rooms
+            </Link>
+            <Link href="/neighbourhood" className="text-sm hover:text-neutral-600">
+              Neighbourhood
+            </Link>
+            <Link href="/plan" className="text-sm hover:text-neutral-600">
+              Plan of apartment
             </Link>
             <Link
               href="/contact"
               className="text-sm px-4 py-2 bg-black text-white rounded-full hover:bg-neutral-800"
             >
-              Kontakt
+              Contact
             </Link>
           </nav>
         </div>
@@ -80,49 +86,57 @@ export default function Header() {
           <div className="pt-24 px-8">
             <nav className="flex flex-col space-y-8">
               <Link 
-                href="/projects" 
+                href="/" 
                 className="text-lg font-medium hover:text-neutral-600 transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
-                Realizacje
-              </Link>
-              <Link 
-                href="/services" 
-                className="text-lg font-medium hover:text-neutral-600 transition-colors"
-                onClick={() => setIsMenuOpen(false)}
-              >
-               Usługi
+                Home
               </Link>
               <Link 
                 href="/gallery" 
                 className="text-lg font-medium hover:text-neutral-600 transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
-                 Projekty
+                Gallery
+              </Link>
+              <Link 
+                href="/rooms" 
+                className="text-lg font-medium hover:text-neutral-600 transition-colors"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Rooms
+              </Link>
+              <Link 
+                href="/neighbourhood" 
+                className="text-lg font-medium hover:text-neutral-600 transition-colors"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Neighbourhood
+              </Link>
+              <Link 
+                href="/plan" 
+                className="text-lg font-medium hover:text-neutral-600 transition-colors"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Plan of apartment
               </Link>
               <Link
                 href="/contact"
                 className="text-lg font-medium px-6 py-3 bg-black text-white rounded-full hover:bg-neutral-800 inline-block text-center transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
-                 Kontakt
+                Contact
               </Link>
             </nav>
 
-            {/* Dodatkowe informacje w menu mobilnym */}
+            {/* Social Media Section */}
             <div className="mt-16 space-y-6 text-neutral-600">
               <div>
-                <h3 className="text-sm font-medium text-black mb-2">Kontact</h3>
-                <p className="text-sm">soniaarchitektura@gmail.com</p>
-                <p className="text-sm">+48 696 600 364</p>
+                <h3 className="text-sm font-medium text-black mb-2">Contact</h3>
+                <p className="text-sm">apartment.wiejska11@gmail.com</p>
+                <p className="text-sm">Tel: +48 661 966 066</p>
               </div>
-              <div>
-                <h3 className="text-sm font-medium text-black mb-2">Social Media</h3>
-                <div className="flex gap-4">
-                  <a href="https://www.instagram.com/sonia_projects/" className="text-sm hover:text-black transition-colors">Instagram</a>
-              
-                </div>
-              </div>
+             
             </div>
           </div>
         </div>

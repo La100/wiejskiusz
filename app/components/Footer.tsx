@@ -6,32 +6,37 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-6 py-12 md:px-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
-            <h3 className="font-medium mb-4">Sonia Projects</h3>
-            <p className="text-sm text-neutral-600">
-              Profesjonalne projekty i wizualizacje wnętrz
+            <Link href="/" className="flex items-end gap-2">
+              <img src="/logo.jpg" alt="Wiejska 11" width={40} height={40} />
+              <span className="font-medium">Wiejska 11</span>
+            </Link>
+            <p className="text-sm text-neutral-600 mt-4">
+              Comfortable apartment in the heart of Warsaw
             </p>
           </div>
           <div>
-            <h3 className="font-medium mb-4">Nawigacja</h3>
+            <h3 className="font-medium mb-4">Navigation</h3>
             <ul className="space-y-2">
-              <li><Link href="/projects" className="text-sm text-neutral-600 hover:text-black">Projekty</Link></li>
-              <li><Link href="/services" className="text-sm text-neutral-600 hover:text-black">Usługi</Link></li>
-              <li><Link href="/gallery" className="text-sm text-neutral-600 hover:text-black">Galeria</Link></li>
-              <li><Link href="/contact" className="text-sm text-neutral-600 hover:text-black">Kontakt</Link></li>
+              <li><Link href="/" className="text-sm text-neutral-600 hover:text-black">Home</Link></li>
+              <li><Link href="/gallery" className="text-sm text-neutral-600 hover:text-black">Gallery</Link></li>
+              <li><Link href="/rooms" className="text-sm text-neutral-600 hover:text-black">Rooms</Link></li>
+              <li><Link href="/plan" className="text-sm text-neutral-600 hover:text-black">Plan of apartment</Link></li>
+              <li><Link href="/contact" className="text-sm text-neutral-600 hover:text-black">Contact</Link></li>
             </ul>
           </div>
           <div>
-            <h3 className="font-medium mb-4">Kontakt</h3>
+            <h3 className="font-medium mb-4">Contact</h3>
             <ul className="space-y-2">
-              <li className="text-sm text-neutral-600">soniaarchitektura@gmail.com</li>
-              <li className="text-sm text-neutral-600">+48 696 600 364</li>
+              <li className="text-sm text-neutral-600">apartment.wiejska11@gmail.com</li>
+              <li className="text-sm text-neutral-600">+48 661 966 066</li>
             </ul>
           </div>
           <div>
-            <h3 className="font-medium mb-4">Social Media</h3>
-            <ul className="space-y-2">
-              <li><a href="https://www.instagram.com/sonia_projects/" className="text-sm text-neutral-600 hover:text-black">Instagram</a></li>
-            </ul>
+            <h3 className="font-medium mb-4">Location</h3>
+            <p className="text-sm text-neutral-600">
+              Wiejska 11<br />
+              Warsaw, Poland
+            </p>
           </div>
         </div>
       </div>

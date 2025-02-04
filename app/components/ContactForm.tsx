@@ -35,7 +35,7 @@ export default function ContactForm() {
     <div className="bg-white rounded-2xl p-8 shadow-lg">
       <form className="space-y-6" onSubmit={handleSubmit}>
         <div>
-          <label htmlFor="name" className="block text-sm font-medium mb-2">Imię i nazwisko</label>
+          <label htmlFor="name" className="block text-sm font-medium mb-2">Name</label>
           <input
             type="text"
             id="name"
@@ -57,7 +57,7 @@ export default function ContactForm() {
           />
         </div>
         <div>
-          <label htmlFor="message" className="block text-sm font-medium mb-2">Wiadomość</label>
+          <label htmlFor="message" className="block text-sm font-medium mb-2">Message</label>
           <textarea
             id="message"
             rows={4}
@@ -75,10 +75,10 @@ export default function ContactForm() {
           {status === 'loading' ? 'Wysyłanie...' : 'Wyślij wiadomość'}
         </button>
         {status === 'success' && (
-          <p className="text-green-600 text-center">Wiadomość została wysłana!</p>
+          <p className="text-green-600 text-center">Message sent!</p>
         )}
         {status === 'error' && (
-          <p className="text-red-600 text-center">Wystąpił błąd podczas wysyłania wiadomości.</p>
+          <p className="text-red-600 text-center">There was an error sending the message.</p>
         )}
       </form>
     </div>

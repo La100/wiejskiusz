@@ -32,8 +32,8 @@ export default function ProjectCarousel({ title, subtitle, description, images }
         onClick={() => setIsExpanded(!isExpanded)}
       >
         <div>
-          <h2 className="font-futura text-3xl md:text-4xl mb-3 text-neutral-800">{title}</h2>
-          <p className="text-xl font-futura text-neutral-600">{subtitle}</p>
+          <h2 className="text-3xl md:text-4xl mb-3 text-neutral-800">{title}</h2>
+          <p className="text-xl text-neutral-600">{subtitle}</p>
         </div>
         <button className="text-2xl transform transition-transform duration-200" style={{ transform: isExpanded ? 'rotate(180deg)' : 'rotate(0deg)' }}>
           ↓
@@ -95,7 +95,7 @@ export default function ProjectCarousel({ title, subtitle, description, images }
         </div>
 
         <div className="mt-12">
-          <p className="text-black font-futura whitespace-pre-line leading-relaxed max-w-3xl mx-auto text-justify">{description}</p>
+          <p className="text-black whitespace-pre-line leading-relaxed max-w-3xl mx-auto text-justify">{description}</p>
         </div>
       </div>
     </div>

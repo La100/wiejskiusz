@@ -2,41 +2,64 @@ import Image from 'next/image';
 
 export default function About() {
   return (
-    <section className="py-8 px-4 md:px-8">
-      <div className="max-w-2xl mb-12 mx-auto text-center">
-        <h2 className="text-3xl font-semibold mb-8">Kim jestem</h2>
-        <p className="mb-6">
-          Projektuję wnętrza z charakterem. Każda przestrzeń to nowa historia - czy to przytulny dom, nowoczesne biuro czy elegancki lokal usługowy. Dbam o każdy detal.
-        </p>
-        
-        <p>
-          Łączę najnowsze trendy ze sprawdzonymi rozwiązaniami. Twoje marzenia i potrzeby są dla mnie priorytetem. Wspólnie stworzymy wnętrze, które będzie Cię inspirować.
-        </p>
-      </div>
-      
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-        <div className="relative h-[800px]">
-          <Image
-            src="https://utfs.io/f/wooH0SnRkga30uwRNIOWDVvJRrE9Iwm5u28joLZAnHCcPzOF"
-            alt="Minimalist interior design"
-            fill
-            className="object-cover rounded-lg"
-          />
+    <section className="py-20 ">
+      <div className="max-w-7xl mx-auto px-8">
+        {/* Main grid of spaces */}
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12 mb-20">
+          <div className="space-y-3">
+            <h3 className="text-2xl text-gray-900">Grand Salon</h3>
+            <p className="text-gray-700">Large prestigious salon with balcony. Connected with dining room</p>
+          </div>
+
+          <div className="space-y-3">
+            <h3 className="text-2xl text-gray-900">Dining Room</h3>
+            <p className="text-gray-700">Spacious to acommodate table for 24 people. Access to second balcony</p>
+          </div>
+
+          <div className="space-y-3">
+            <h3 className="text-2xl text-gray-900">Gabinet</h3>
+            <p className="text-gray-700">Beautiful oak library connected by secret doors with private rooms</p>
+          </div>
+
+          <div className="space-y-3">
+            <h3 className="text-2xl text-gray-900">Small Salon</h3>
+            <p className="text-gray-700">Octagonal shape, connecting official and private part of apartment</p>
+          </div>
+
+          <div className="space-y-3">
+            <h3 className="text-2xl text-gray-900">Kitchen</h3>
+            <p className="text-gray-700">Large kitchen fully equipped with modern appliances</p>
+          </div>
+
+          <div className="space-y-3">
+            <h3 className="text-2xl text-gray-900">Bedrooms</h3>
+            <p className="text-gray-700">Three quiet bedrooms</p>
+          </div>
+
+          <div className="space-y-3">
+            <h3 className="text-2xl text-gray-900">Bathrooms</h3>
+            <p className="text-gray-700">Two bathrooms, Toilet, Separate laundry room</p>
+          </div>
+
+          <div className="space-y-3">
+            <h3 className="text-2xl text-gray-900">Walk-in closets</h3>
+            <p className="text-gray-700">Five large walk-in closets</p>
+          </div>
+
+          <div className="space-y-3">
+            <h3 className="text-2xl text-gray-900">Underground garage</h3>
+            <p className="text-gray-700">Two parallel places, access via comfortable ramp</p>
+          </div>
         </div>
-        <div className="relative h-[800px]">
+
+        {/* Image below */}
+        <div className="relative aspect-[3/4] w-1/2 mx-auto">
           <Image
-            src="https://utfs.io/f/wooH0SnRkga3kSY2c0dMi6jsZMbDlfQnPc49pFr7CvWEgoam"
-            alt="Modern exterior design"
+            src="/hero2.jpg"
+            alt="Grand Salon"
             fill
-            className="object-cover rounded-lg"
-          />
-        </div>
-        <div className="relative h-[800px]">
-          <Image
-            src="https://utfs.io/f/wooH0SnRkga3xfHYXA2RfzjVHtInU037mQMCihecBWZ1KvA8"
-            alt="Luxury pool area"
-            fill
-            className="object-cover rounded-lg"
+            className="object-cover"
+            priority
           />
         </div>
       </div>
