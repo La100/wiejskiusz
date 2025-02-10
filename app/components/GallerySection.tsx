@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 
 interface GallerySectionProps {
@@ -89,13 +88,10 @@ export default function GallerySection({
                       onImageClick(image);
                     }}
                   >
-                    <Image
+                    <img
                       src={image.url}
                       alt={image.alt}
-                      fill
-                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 33vw, 33vw"
-                      className="object-cover"
-                      priority={index < 2}
+                      className="object-cover absolute inset-0 w-full h-full"
                     />
                   </div>
                 </motion.div>

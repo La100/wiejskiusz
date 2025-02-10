@@ -1,7 +1,6 @@
 "use client";
 
 import { useState } from "react";
-import Image from "next/image";
 import { Dialog } from "@headlessui/react";
 import { motion } from "framer-motion";
 
@@ -37,13 +36,10 @@ export default function GalleryPage() {
               className="relative aspect-auto rounded-lg overflow-hidden cursor-pointer hover:shadow-xl transition-all duration-300 transform hover:scale-[1.02]"
               onClick={() => setSelectedImage(image.url)}
             >
-              <Image
+              <img
                 src={image.url}
                 alt={image.alt}
-                width={800}
-                height={600}
                 className="w-full h-auto object-cover"
-                priority={index < 6}
               />
             </div>
           </motion.div>
@@ -65,11 +61,9 @@ export default function GalleryPage() {
               Close
             </button>
             {selectedImage && (
-              <Image
+              <img
                 src={selectedImage}
                 alt="Selected image"
-                width={1200}
-                height={800}
                 className="w-full h-auto object-contain rounded-lg"
               />
             )}

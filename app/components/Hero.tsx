@@ -1,18 +1,12 @@
-import Image from "next/image";
-
 export default function Hero() {
   return (
     <div className="relative h-screen w-screen overflow-hidden">
       {/* Full-width image container */}
       <div className="absolute inset-0">
-        <Image
+        <img
           src="/gallery/image-17.jpg"
           alt="Luxury apartment interior"
-          fill
-          className="object-cover"
-          sizes="100vw"
-          quality={100}
-          priority
+          className="object-cover absolute inset-0 w-full h-full"
         />
       </div>
       

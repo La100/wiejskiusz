@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 
+
 import GallerySection from "../components/GallerySection";
 import { Dialog } from "@headlessui/react";
 import Image from "next/image";
