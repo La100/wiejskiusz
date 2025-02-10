@@ -65,11 +65,10 @@ export default function NeighbourhoodPage() {
           <div key={index} className="group">
             <div className="overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-all duration-300">
               <div className="aspect-[4/3] relative">
-                <Image
+                <img
                   src={item.image}
                   alt={item.title}
-                  fill
-                  className="object-cover transition-transform duration-500 group-hover:scale-110"
+                  className="object-cover transition-transform duration-500 group-hover:scale-110 absolute inset-0 w-full h-full"
                 />
               </div>
             </div>
